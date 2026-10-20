@@ -29,7 +29,7 @@ const one = (sql, ...a) => db.prepare(sql).get(...a), all = (sql, ...a) => db.pr
 /* ---- first-run setup: demo accounts and session secret ---- */
 if (!one('SELECT 1 FROM users LIMIT 1')) {
     const q = 'INSERT INTO users(name,id_number,email,role,user_type,department,password_hash) VALUES(?,?,?,?,?,?,?)';
-    run(q, 'Juan Dela Cruz', '2024-0001', 'juan.delacruz@cspc.edu.ph', 'customer', 'student', 'BS Information Technology', hash('Student@123'));
+    run(q, 'Juan Dela Cruz', '2024-0001', 'jaaninang@cspc.edu.ph', 'customer', 'student', 'BS Information Technology', hash('Student@123'));
     run(q, 'Cafeteria Staff', 'STAFF-01', 'staff@cspc.edu.ph', 'staff', 'staff', 'Cafeteria', hash('Staff@123'));
 }
 
