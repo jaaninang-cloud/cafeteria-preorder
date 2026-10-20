@@ -29,7 +29,7 @@ npm install
 npm start       # http://localhost:3000
 npm test        # automated API tests
 ```
-Evaluation accounts: customer `juan.delacruz@cspc.edu.ph` / `Student@123`; staff `staff@cspc.edu.ph` / `Staff@123`. Change these before any real deployment.
+Evaluation accounts: customer `jaaninang@cspc.edu.ph` / `Student@123`; staff `staff@cspc.edu.ph` / `Staff@123`. Change these before any real deployment.
 
 **CSPC email rule:** only addresses ending in `@cspc.edu.ph` (or a subdomain such as `@student.cspc.edu.ph`) can register. To use a different domain: `EMAIL_DOMAIN=your.domain npm start`.
 
